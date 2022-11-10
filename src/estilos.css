@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  background-color: black;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  font-family:sans-serif;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px; 
+  border-radius: 50px;
+  border: 3px white solid;
+  margin-right: 10px;
+}
+h1 {
+
+  margin-top: 80px;
+}
+h2 {
+  font-family:sans-serif;
+}
+nav a {
+  text-decoration: none;
+	border: none;
+	outline: none;
+  color: white;
+}
+.imageCard {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.cardDesign {
+
+
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 210px;
+}
+.productos {
+  /* display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;*/
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.imgs {
+  width: 200px;
+  height: 200px;
+}
+.vermas-btn {
+  color: white;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 5px;
+}

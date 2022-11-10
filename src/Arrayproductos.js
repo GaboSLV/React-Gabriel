@@ -1,0 +1,66 @@
+let arrayProductos = [
+    {
+        nombre: "RTX 3090",
+        id: 1,
+        precio: 80000,
+        category: "grafica",
+        image: "./img/3090.jpeg",
+    },
+    {
+        nombre: "GTX 1050",
+        id: 2,
+        precio: 30000,
+        category: "grafica",
+        image: "./img/1050.jpg",
+    },
+    {
+        nombre: "FX-6300",
+        id: 3,
+        precio: 80000,
+        category: "grafica",
+        image: "",
+    },
+    {
+        nombre: "Ryzen 5",
+        id: 4,
+        precio: 80000,
+        category: "procesador",
+        image: "",
+    },
+    {
+        nombre: "Ryzen 5",
+        id: 5,
+        precio: 80000,
+        category: "grafica",
+        image: "",
+    },
+    {
+        nombre: "Ryzen 5",
+        id: 6,
+        precio: 80000,
+        category: "grafica",
+        image: "",
+    },
+    {
+        nombre: "Ryzen 5",
+        id: 7,
+        precio: 80000,
+        category: "procesador",
+        image: "",
+    },
+    {
+        nombre: "Ryzen 5",
+        id: 8,
+        precio: 80000,
+        category: "procesador",
+        image: "",
+    },
+    {
+        nombre: "Ryzen 5",
+        id: 9,
+        precio: 80000,
+        category: "procesador",
+        image: "",
+    },
+]
+export default arrayProductos
